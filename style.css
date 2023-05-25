@@ -5,3 +5,47 @@
   list-style: none;
   border: 0;
 }
+
+#partsuperior {
+  background-color: #24053E;
+  width: auto;
+  height: 730px;
+  border-radius: 0% 0% 50% 50% / 20% 10% 20% 10%;
+  position: relative;
+}
+
+#smartfone {
+  width: 767px;
+  height: 441px;
+  margin: auto;
+  display: block;
+  margin-top: 454px;
+}
+
+#title-init {
+  left: 50;
+  padding-top: 146px;
+  vertical-align: middle;
+  width: 635px;
+  height: 160px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: auto;
+}
+
+#title-init h1 {
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  color: white;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  size: 80px;
+  text-align: center;
+  position: absolute;
+
+
+}
