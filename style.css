@@ -12,6 +12,13 @@
   height: 730px;
   border-radius: 0% 0% 50% 50% / 20% 10% 20% 10%;
   position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+  top: 57.78px;
+  left: 165.35px;
+  position: absolute;
 }
 
 #smartfone {
@@ -23,7 +30,8 @@
 }
 
 #title-init {
-  left: 50;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 146px;
   vertical-align: middle;
   width: 635px;
@@ -32,20 +40,107 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  position: absolute;
   margin: auto;
 }
 
 #title-init h1 {
   font-family: "Fraunces", sans-serif;
-  font-style: normal;
+  font-style: normal 144pt;
+  height: 160px;
+  width: 635px;
   color: white;
   font-weight: 600;
   font-size: 80px;
   line-height: 80px;
   size: 80px;
   text-align: center;
+  left: 0%;
+  right: 0%;
+}
+
+#title-init button {
+  margin-top: 37px;
+  background-color: #44FFA1;
+  width: 161px;
+  height: 61px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  size: 18px;
+  font-style: normal;
+  text-align: center;
+  color: #24053E;
+  line-height: 32px;
+}
+
+#partsuperior p {
   position: absolute;
+  top: 56px;
+  right: 165px;
+  font-family: "Manrope", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.16px;
+  border-bottom: #44FFA1;
+  border-color: #44FFA1;
+  border-style: solid;
+  border-bottom-width: 3px;
+}
+
+#smartfone {
+  position: absolute;
+  margin-top: 50px;
+  left: auto;
+  right: auto;
+  height: 441px;
+  width: 767px;
+}
+
+#circles1 {
+  position: absolute;
+  top: 116.12px;
+  left: -138.27px;
+  width: 270.19px;
+  height: 215.1px;
+}
+
+#circles2 {
+  position: absolute;
+  top: 314px;
+  right: -48.08px;
+  width: 141.7px;
+  height: 112.71px;
+}
+
+#itens {
+  height: 960px;
+  width: 100%;
+  margin-top: -226px;
+  position: relative;
 
 
+}
+
+#itens-group {
+  height: 309px;
+  width: 1114px;
+  position: absolute;
+  bottom: 171px;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  text-align: center;
+
+}
+
+.itens-coluns {
+  width: 345px;
 }
