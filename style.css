@@ -143,4 +143,133 @@
 
 .itens-coluns {
   width: 345px;
+  align-content: center;
+  text-align: center;
+}
+
+.itens-coluns :first-child {
+
+  font-family: "Fraunces", sans-serif;
+  border-style: solid;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+
+  align-content: center;
+  border-width: 1px;
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  justify-content: center;
+
+  margin-bottom: 56px;
+}
+
+.itens-coluns h2 {
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+
+  margin-bottom: 28px;
+}
+
+.itens-coluns span {
+  font-family: "Manrope", sans-serif;
+  height: 128px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #24053E;
+}
+
+#founder {
+  width: 100%;
+  height: 1030px;
+  position: relative;
+}
+
+#founder img {
+  height: 477px;
+  width: 477px;
+  margin-left: 163px;
+}
+
+#text-box-fouder {
+  position: absolute;
+  background-color: #24053E;
+  height: 413px;
+  width: 730px;
+  margin-left: 515px;
+  margin-top: -304px;
+}
+
+#text-box-fouder h2 {
+  width: 382px;
+  height: 64px;
+  font-family: "Fraunces", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 54px;
+  margin-left: 64.5px;
+  margin-top: 64px;
+}
+
+#text-box-fouder p {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.221px;
+  line-height: 32px;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 32px;
+}
+
+#text-box-fouder button {
+  width: 190px;
+  height: 61px;
+  background-color: #44FFA1;
+  font-family: "Manrope" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  color: #24053E;
+  margin-left: 64px;
+  margin-top: 32px;
+}
+
+#text-box-fouder img {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+}
+
+#footer {
+  width: 116px;
+  height: 102.22px;
+  margin-left: auto;
+  margin-right: auto;
 }
